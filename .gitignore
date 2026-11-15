@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js dependencies and build output
+node_modules/
+dist/
+
+# Python virtual environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Logs and local runtime output
+*.log
+
+# Local editor settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
